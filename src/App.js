@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className='header field'>
-      <h1Adam Milner</h1>
+      <h1>Adam Milner Yay its fixed now</h1>
       VAT CALCULATOR
       <div className='colour-border'>
         <VatRateField customstyle="field" vatRateChanged={handleVatRateChanged} value={vatRate} updatePrices={updatePrices} />
